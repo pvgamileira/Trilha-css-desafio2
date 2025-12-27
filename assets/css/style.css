@@ -1,0 +1,206 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+body {
+    font-family: "Roboto", sans-serif;
+    font-size: 1.6rem;
+    line-height: 1.4;
+    color: #000;
+    background-color: #f9f9f9;
+}
+
+.header{
+    height: 5.6rem;
+    background-color: #fff;
+}
+
+.container-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 2.4rem;
+    padding: .8rem 0;
+}
+
+.left-header, .right-header{
+    display: flex;
+    align-items: center;
+    gap: 2.4rem;
+}
+
+.avatar-header{
+    width: 3.2rem;
+    height: 3.2rem;
+    border-radius: 50%;
+}
+
+.watching-video{
+    display: flex;
+    gap: 2rem;
+    padding: 2.8rem 4rem;
+    max-width: 144rem;
+    margin: 0 auto;
+}
+
+.watching-video .container-watching{
+    display: flex;
+    flex-flow: column;
+    gap: 1.6rem;
+    width: 100%;
+    max-width: 100%;
+}
+
+.watching-video .container-watching iframe{
+    aspect-ratio: 16 / 9;
+    width: 95.2rem;
+    height: 53.7rem;
+    border-radius: 2rem;
+}
+
+
+.watching-video .container-watching .description-video{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.container-watching {
+    display: flex;
+    flex-flow: column;
+    gap: 1.6rem;
+    width: 100%;
+}
+
+.description-video {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.video-action{
+    display: flex;
+    gap: 4.2rem;
+}
+
+.channel-infos img {
+    width: 4.2rem;
+    height: auto;
+    border-radius: 50%;
+}
+
+.channel-infos .titles {
+    line-height: 1.2;
+    font-size: 1.4rem;
+}
+
+
+.channel-infos .titles .titulo-canal{
+    font-weight: 600;
+}
+
+.channel-infos .titles .subtitulo-canal{
+    color: #515151;
+}
+
+.channel-infos .titles{
+    line-height: 1.2rem;
+    font-size: 1.4rem;
+}
+
+.channel-infos{
+    display: flex;
+    align-items: center;
+    gap: 1.2rem;
+}
+
+.titles{
+    line-height: 1.2;
+    font-size: 1.4rem;
+    display: flex;
+    flex-flow: column;
+    gap: .5rem;
+}
+
+.titulo-canal{
+    font-weight: 600;
+}
+
+.subtitulo-canal{
+    color: #515151;
+}
+
+.likes, .deslikes, .share, .download{
+    display: flex;
+    align-items: center;
+    gap: .8rem;
+    font-weight: 500;
+}
+
+.views{
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+.more{
+    display: flex;
+    flex-flow: column;
+    gap: 2rem;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 1.4;
+}
+
+.more ul{
+    margin-left: 2.4rem;
+}
+
+button {
+    width: 15.9rem;
+    height: 4rem;
+    border-radius: .2rem;
+    background-color: #cc0000;
+    color: #fff;
+    font-size: 1.4rem;
+    text-transform: uppercase ;
+    border: none;
+    padding: 1.2rem 3.6rem;
+    cursor: pointer;
+}
+
+aside{
+    background-color: #fff;
+    padding: 1rem;
+    width: max-content;
+    border-radius: 0.6rem;
+    width: 37.2rem;
+}
+
+.videos-aside .video-aside{
+    margin-bottom: 1.6rem;
+}
+
+.videos-aside .video-aside img{
+    width: 16rem;
+    height: 9rem;
+    border-radius: .6rem;
+}
+
+.videos-aside .video-aside{
+    display: flex;
+    align-items: center;
+    gap: 1.6rem;
+}
+
+.titles{
+    display: flex;
+    flex-flow: column;
+    gap: .5rem;
+
+}
+
+.titles .main-title{
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: #000;
+}
+
+.titles .subtitle-sec{
+    font-size: 1.2rem;
+    color: #515151;
+}

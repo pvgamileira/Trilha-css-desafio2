@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Desafio Youtube Clone</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container-header">
+            <div class="left-header">
+                <img src="assets/images/menu.png" alt="Imagem menu Hamburguer">
+                <img src="assets/images/youtube 1@2x.png" alt="Logo do Youtube">    
+            </div>
+            <img src="assets/images/Center.png" alt="Icone de busca do Youtube" class="search-icon">
+            <div class="right-header">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M23 7L16 12L23 17V7Z" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M14 5H3C1.89543 5 1 5.89543 1 7V17C1 18.1046 1.89543 19 3 19H14C15.1046 19 16 18.1046 16 17V7C16 5.89543 15.1046 5 14 5Z" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>                                                                                                                                                                                                                                        
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M18 8C18 6.4087 17.3679 4.88258 16.2426 3.75736C15.1174 2.63214 13.5913 2 12 2C10.4087 2 8.88258 2.63214 7.75736 3.75736C6.63214 4.88258 6 6.4087 6 8C6 15 3 17 3 17H21C21 17 18 15 18 8Z" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M13.73 21C13.5542 21.3031 13.3019 21.5547 12.9982 21.7295C12.6946 21.9044 12.3504 21.9965 12 21.9965C11.6496 21.9965 11.3054 21.9044 11.0018 21.7295C10.6982 21.5547 10.4458 21.3031 10.27 21" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+
+                <img src="assets/images/linkedinperfil.jpg" alt="Minha foto de perfil" class="avatar-header">
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="watching-video">
+            <div class="container-watching">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/DqC8R2p0lls?si=obyheSGtB3ViPJc5" title="Youtube video player" frameborder="0" allow="accelerometer autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share;" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                    https://www.youtube.com/embed/DqC8R2p0lls?si=obyheSGtB3ViPJc5
+                </iframe>
+                <p class="description-video">Lançamento Santander Bootcamp 2025</p>
+                <div class="video-action">
+                    <div class="channel-infos">
+                        <img src="https://yt3.ggpht.com/_HfgLNdU77la-nFe97KHYFdhfi1IH-1J0I9WUfC9vOeQZWXl53aPGiQG3y2MMwWz0wjgFN56Eiw=s88-c-k-c0x00ffffff-no-rj" alt="Dio logo">
+                        <div class="titles">
+                            <p class="titulo-canal">DIO</p>
+                            <p class="subtitulo-canal">122 mil inscritos</p>
+                        </div>
+                    </div>
+                    <button class="subscribe-button">Inscrever-se</button>
+                    <div class="likes">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M7 22H4C3.46957 22 2.96086 21.7893 2.58579 21.4142C2.21071 21.0391 2 20.5304 2 20V13C2 12.4696 2.21071 11.9609 2.58579 11.5858C2.96086 11.2107 3.46957 11 4 11H7M14 9V5C14 4.20435 13.6839 3.44129 13.1213 2.87868C12.5587 2.31607 11.7956 2 11 2L7 11V22H18.28C18.7623 22.0055 19.2304 21.8364 19.5979 21.524C19.9654 21.2116 20.2077 20.7769 20.28 20.3L21.66 11.3C21.7035 11.0134 21.6842 10.7207 21.6033 10.4423C21.5225 10.1638 21.3821 9.90629 21.1919 9.68751C21.0016 9.46873 20.7661 9.29393 20.5016 9.17522C20.2371 9.0565 19.9499 8.99672 19.66 9H14Z" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                        <p>2 mil</p>
+                    </div>
+                    <div class="deslikes">
+                        <svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M15.1826 0.500361H17.8526C18.4186 0.490352 18.9685 0.688497 19.3981 1.05718C19.8276 1.42586 20.1068 1.93942 20.1826 2.50036V9.50036C20.1068 10.0613 19.8276 10.5749 19.3981 10.9435C18.9685 11.3122 18.4186 11.5104 17.8526 11.5004H15.1826M8.18265 13.5004V17.5004C8.18265 18.296 8.49872 19.0591 9.06133 19.6217C9.62394 20.1843 10.387 20.5004 11.1826 20.5004L15.1826 11.5004V0.500361H3.90265C3.42032 0.494909 2.95227 0.663956 2.58474 0.976355C2.21721 1.28875 1.97497 1.72346 1.90265 2.20036L0.522648 11.2004C0.47914 11.487 0.498473 11.7797 0.579308 12.0581C0.660143 12.3365 0.800545 12.5941 0.990789 12.8128C1.18103 13.0316 1.41657 13.2064 1.68108 13.3251C1.94558 13.4439 2.23274 13.5036 2.52265 13.5004H8.18265Z" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+
+                        <path d="M7 22H4C3.46957 22 2.96086 21.7893 2.58579 21.4142C2.21071 21.0391 2 20.5304 2 20V13C2 12.4696 2.21071 11.9609 2.58579 11.5858C2.96086 11.2107 3.46957 11 4 11H7M14 9V5C14 4.20435 13.6839 3.44129 13.1213 2.87868C12.5587 2.31607 11.7956 2 11 2L7 11V22H18.28C18.7623 22.0055 19.2304 21.8364 19.5979 21.524C19.9654 21.2116 20.2077 20.7769 20.28 20.3L21.66 11.3C21.7035 11.0134 21.6842 10.7207 21.6033 10.4423C21.5225 10.1638 21.3821 9.90629 21.1919 9.68751C21.0016 9.46873 20.7661 9.29393 20.5016 9.17522C20.2371 9.0565 19.9499 8.99672 19.66 9H14Z" stroke="black" stroke-linecap="round" stroke-linejoin="round"></path>
+                        <p>Não gostei</p>
+                    </div>
+                    <div class="share">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M18 8C19.6569 8 21 6.65685 21 5C21 3.34315 19.6569 2 18 2C16.3431 2 15 3.34315 15 5C15 6.65685 16.3431 8 18 8Z" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M6 15C7.65685 15 9 13.6569 9 12C9 10.3431 7.65685 9 6 9C4.34315 9 3 10.3431 3 12C3 13.6569 4.34315 15 6 15Z" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M18 22C19.6569 22 21 20.6569 21 19C21 17.3431 19.6569 16 18 16C16.3431 16 15 17.3431 15 19C15 20.6569 16.3431 22 18 22Z" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M8.59 13.51L15.42 17.49" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M15.41 6.50999L8.59 10.49" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                        <p>Compartilhar</p>
+                    </div>
+                    <div class="download">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M21 15V19C21 19.5304 20.7893 20.0391 20.4142 20.4142C20.0391 20.7893 19.5304 21 19 21H5C4.46957 21 3.96086 20.7893 3.58579 20.4142C3.21071 20.0391 3 19.5304 3 19V15" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M7 10L12 15L17 10" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M12 15V3" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                        <p>download</p>
+                    </div>
+                </div>
+                <p class="views">24 mil visualizações Transmitido há 2 meses</p>
+                <div class="more">
+                    <p>
+                        Acompanhe o lançamento da 5ª edição do Santander Bootcamp, dessa vez com 3 trilhas incríveis para você escolher: 
+                    </p>
+                    <ul>
+                        <li>Santander Bootcamp 2025 - 5ª.Ed | Back-end com Java </li>
+                        <li> Santander Bootcamp 2025 - 5ª.Ed | Back-end com Python </li>
+                        <li>Santander Bootcamp 2025 - 5ª.Ed | Front-end  </li>
+                    </ul>
+                    <p>
+                        Com experts da DIO, Santander, F1rst – o lado tech do Santander e a Universia, empresa que encontra e contrata talentos para o banco.  
+                    </p>
+                    <p>
+                        O programa é voltado para aqueles que estão iniciando carreira em desenvolvimento de software, em transição de carreira ou que já atuam profissionalmente e buscam evoluir e conquistar melhores oportunidades no mercado de tecnologia!  
+                    </p>
+                </div>
+            </div>
+            <aside>
+                <div class="videos-aside">
+                    <div class="video-aside">
+                        <img src="./assets/images/Video1.png" alt="video 01 youtube">
+                        <div class="titles">
+                            <p class="main-title">Geração Tech Unimed - BH - Ciência de Dados</p>
+                            <p class="subtitle-sec">DigitalInnovationOne</p>
+                            <p class="subtitle-sec">2,1 mil visualizações Transmitido há 2 dias</p>
+                        </div>
+                    </div>
+
+                    <div class="video-aside">
+                        <img src="./assets/images/Video2.png" alt="video 02 youtube">
+                        <div class="titles">
+                            <p class="main-title">Scrum Talks</p>
+                            <p class="subtitle-sec">DigitalInnovationOne</p>
+                            <p class="subtitle-sec">1,6 mil visualizações Transmitido há 3 dias</p>
+                        </div>
+                    </div>
+
+                    <div class="video-aside">
+                        <img src="./assets/images/Video3.png" alt="video 03 youtube">
+                        <div class="titles">
+                            <p class="main-title">Machine Learning Avançado - Fast Track</p>
+                            <p class="subtitle-sec">DigitalInnovationOne</p>
+                            <p class="subtitle-sec">1,7 mil visualizações Transmitido há 4 dias</p>
+                        </div>
+                    </div>
+
+                    <div class="video-aside">
+
+                        <img src="./assets/images/Video4.png" alt="video 04 youtube">
+
+                        <div class="titles">
+                            <p class="main-title">Global Skills #2 - Project Planning</p>
+                            <p class="subtitle-sec">DigitalInnovationOne</p>
+                            <p class="subtitle-sec">971 visualizações Transmitido há 5 dias</p>
+                        </div>
+                    </div>
+
+                    <div class="video-aside">
+
+                        <img src="./assets/images/Video5.png" alt="video 05 youtube">
+
+                        <div class="titles">
+                            <p class="main-title">Como aprender a programar Python do ZERO</p>
+                            <p class="subtitle-sec">DigitalInnovationOne</p>
+                            <p class="subtitle-sec">711 visualizações Transmitido há 6 dias</p>
+                        </div>
+                    </div>
+            
+                        <!-- Dupliquei os videos -->
+                    <div class="video-aside">
+
+                        <img src="./assets/images/Video1.png" alt="video 01 youtube">
+
+                        <div class="titles">
+                            <p class="main-title">Geração Tech Unimed - BH - Ciência de Dados</p>
+                            <p class="subtitle-sec">DigitalInnovationOne</p>
+                            <p class="subtitle-sec">2,1 mil visualizações Transmitido há 2 dias</p>
+                        </div>
+                    </div>
+
+                    <div class="video-aside">
+
+                        <img src="./assets/images/Video2.png" alt="video 02 youtube">
+
+                        <div class="titles">
+                            <p class="main-title">Scrum Talks</p>
+                            <p class="subtitle-sec">DigitalInnovationOne</p>
+                            <p class="subtitle-sec">1,6 mil visualizações Transmitido há 3 dias</p>
+                        </div>
+                    </div>
+
+                    <div class="video-aside">
+
+                        <img src="./assets/images/Video3.png" alt="video 03 youtube">
+
+                        <div class="titles">
+                            <p class="main-title">Machine Learning Avançado - Fast Track</p>
+                            <p class="subtitle-sec">DigitalInnovationOne</p>
+                            <p class="subtitle-sec">1,7 mil visualizações Transmitido há 4 dias</p>
+                        </div>
+                    </div>
+
+                    <div class="video-aside">
+
+                        <img src="./assets/images/Video4.png" alt="video 04 youtube">
+
+                        <div class="titles">
+                            <p class="main-title">Global Skills #2 - Project Planning</p>
+                            <p class="subtitle-sec">DigitalInnovationOne</p>
+                            <p class="subtitle-sec">971 visualizações Transmitido há 5 dias</p>
+                        </div>
+                    </div>
+
+                    <div class="video-aside">
+
+                        <img src="./assets/images/Video5.png" alt="video 05 youtube">
+
+                        <div class="titles">
+                            <p class="main-title">Como aprender a programar Python do ZERO</p>
+                            <p class="subtitle-sec">DigitalInnovationOne</p>
+                            <p class="subtitle-sec">711 visualizações Transmitido há 6 dias</p>
+                        </div>
+                    </div>
+
+            
+                </div>
+            </aside>
+        </section>
+    </main>
+
+    <footer></footer>
+</body>
+</html>
